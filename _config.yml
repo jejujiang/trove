@@ -16,8 +16,8 @@ twitter:
 #    publisher:      1234
 
 # URL
-baseurl:            ""
-#baseurl:            "" #For Root Domain
+baseurl:            "https://jejujiang.github.io"
+baseurl:            "/trove" #For Root Domain
 permalink:          /:year/:month/:day/:title/
 
 # Markdown
