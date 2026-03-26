@@ -1,10 +1,10 @@
 - name: Home
   link: /
 - name: Reading
-  link: /reading
+  link: /trove/reading
 - name: Learning
-  link: /learning
+  link: /trove/learning
 - name: Algorithm
-  link: /algorithm
+  link: /trove/algorithm
 - name: Love
-  link: /loves
+  link: /trove/loves
