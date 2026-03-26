@@ -1,43 +1,13 @@
-# # # # # # # #
-#   K i k o   #
-# # # # # # # #
+title: "Trove"
+permalink: /:title/
 
-# Basic
-name:               "Jeju"
-description:        "a clean, lightweight and minimalistic blog theme for jekyll"
+collections:
+  loves:
+    output: true
 
-# URL
-baseurl:            "https://jejujiang.github.io"
-baseurl:            "/trove" #For Root Domain
-permalink:          /:year/:month/:day/:title/
-
-# Markdown
-markdown:           kramdown
-
-# Navigation
-nav:
-  - name:           "About"
-    remote:         false
-    localpath:      "about"
-  - name:           "Download"
-    remote:         true
-    href:           "//github.com/gfjaru/Kiko/releases"
-
-# Sass
-sass:
-  style:            :compressed
-
-# Scopes
 defaults:
   -
     scope:
-      path:         ""
-      type:         "pages"
+      path:  ""
     values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
+      layout:  "default"
